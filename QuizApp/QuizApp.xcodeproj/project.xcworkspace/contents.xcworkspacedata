@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:icon.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:../../../Downloads/icon.jpg">
+   </FileRef>
+   <Group
+      location = "group:/Users/suzukikenichi/geek-salmon/QuizApp/QuizApp/ios"
+      name = "ios">
+      <FileRef
+         location = "group:iTunesArtwork@1x.png">
+      </FileRef>
+      <Group
+         location = "group:AppIcon.appiconset"
+         name = "AppIcon.appiconset">
+         <FileRef
+            location = "group:Icon-App-57x57@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-76x76@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-29x29@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-60x60@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small-50x50@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-40x40@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-76x76@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-72x72@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-20x20@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-83.5x83.5@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-20x20@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:ItunesArtwork@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-20x20@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-29x29@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-40x40@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-72x72@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-60x60@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small-50x50@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-60x60@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-57x57@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-76x76@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-40x40@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-App-29x29@2x.png">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:iTunesArtwork@2x.png">
+      </FileRef>
+      <FileRef
+         location = "group:iTunesArtwork@3x.png">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "self:QuizApp.xcodeproj">
+   </FileRef>
+</Workspace>

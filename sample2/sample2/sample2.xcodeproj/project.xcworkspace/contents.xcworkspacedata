@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/suzukikenichi/geek-salmon/sample2/sample2/sample2/momoka17.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:sample2.xcodeproj">
+   </FileRef>
+</Workspace>
