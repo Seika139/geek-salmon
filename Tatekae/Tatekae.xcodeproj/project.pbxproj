@@ -14,12 +14,9 @@
 		EB6E897320AC4A4200463196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6E897120AC4A4200463196 /* LaunchScreen.storyboard */; };
 		EB6E897B20AC515500463196 /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E897A20AC515500463196 /* OpenViewController.swift */; };
 		EB6E897E20AD7ADD00463196 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E897D20AD7ADD00463196 /* NewViewController.swift */; };
-		EB6E898020B2CAE000463196 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E897F20B2CAE000463196 /* CollectionViewController.swift */; };
-		EB6E898220B2CB0100463196 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E898120B2CB0100463196 /* CollectionViewCell.swift */; };
-		EB6E89A220B67A9500463196 /* CollectionViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E89A120B67A9500463196 /* CollectionViewController2.swift */; };
-		EB6E89A420B811D700463196 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E89A320B811D700463196 /* GridViewController.swift */; };
-		EB6E89A620B81CDA00463196 /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E89A520B81CD900463196 /* GridCollectionViewCell.swift */; };
-		EBD6537020C12172003AB5B2 /* CustomUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6536F20C12172003AB5B2 /* CustomUICollectionViewCell.swift */; };
+		EBA2222B20D8B3D7005486E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2222A20D8B3D7005486E5 /* MainViewController.swift */; };
+		EBA2222D20D8B3FC005486E5 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2222C20D8B3FC005486E5 /* CustomCollectionViewCell.swift */; };
+		EBA2223320D8D3DA005486E5 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2223220D8D3DA005486E5 /* CustomNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +29,9 @@
 		EB6E897420AC4A4200463196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6E897A20AC515500463196 /* OpenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
 		EB6E897D20AD7ADD00463196 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
-		EB6E897F20B2CAE000463196 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		EB6E898120B2CB0100463196 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		EB6E89A120B67A9500463196 /* CollectionViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController2.swift; sourceTree = "<group>"; };
-		EB6E89A320B811D700463196 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
-		EB6E89A520B81CD900463196 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
-		EBD6536F20C12172003AB5B2 /* CustomUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUICollectionViewCell.swift; sourceTree = "<group>"; };
+		EBA2222A20D8B3D7005486E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EBA2222C20D8B3FC005486E5 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		EBA2223220D8D3DA005486E5 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,19 +64,16 @@
 		EB6E896720AC4A4000463196 /* Tatekae */ = {
 			isa = PBXGroup;
 			children = (
-				EB6E896820AC4A4000463196 /* AppDelegate.swift */,
-				EB6E897F20B2CAE000463196 /* CollectionViewController.swift */,
-				EB6E89A120B67A9500463196 /* CollectionViewController2.swift */,
-				EB6E898120B2CB0100463196 /* CollectionViewCell.swift */,
+				EBA2223220D8D3DA005486E5 /* CustomNavigationBar.swift */,
+				EB6E896A20AC4A4000463196 /* ViewController.swift */,
 				EB6E897D20AD7ADD00463196 /* NewViewController.swift */,
 				EB6E897A20AC515500463196 /* OpenViewController.swift */,
-				EB6E896A20AC4A4000463196 /* ViewController.swift */,
+				EBA2222A20D8B3D7005486E5 /* MainViewController.swift */,
+				EBA2222C20D8B3FC005486E5 /* CustomCollectionViewCell.swift */,
+				EB6E896820AC4A4000463196 /* AppDelegate.swift */,
 				EB6E896C20AC4A4000463196 /* Main.storyboard */,
-				EB6E89A520B81CD900463196 /* GridCollectionViewCell.swift */,
-				EB6E89A320B811D700463196 /* GridViewController.swift */,
 				EB6E896F20AC4A4200463196 /* Assets.xcassets */,
 				EB6E897120AC4A4200463196 /* LaunchScreen.storyboard */,
-				EBD6536F20C12172003AB5B2 /* CustomUICollectionViewCell.swift */,
 				EB6E897420AC4A4200463196 /* Info.plist */,
 			);
 			path = Tatekae;
@@ -159,16 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBD6537020C12172003AB5B2 /* CustomUICollectionViewCell.swift in Sources */,
-				EB6E89A420B811D700463196 /* GridViewController.swift in Sources */,
 				EB6E896B20AC4A4000463196 /* ViewController.swift in Sources */,
+				EBA2222D20D8B3FC005486E5 /* CustomCollectionViewCell.swift in Sources */,
 				EB6E896920AC4A4000463196 /* AppDelegate.swift in Sources */,
-				EB6E89A620B81CDA00463196 /* GridCollectionViewCell.swift in Sources */,
-				EB6E898220B2CB0100463196 /* CollectionViewCell.swift in Sources */,
 				EB6E897B20AC515500463196 /* OpenViewController.swift in Sources */,
 				EB6E897E20AD7ADD00463196 /* NewViewController.swift in Sources */,
-				EB6E89A220B67A9500463196 /* CollectionViewController2.swift in Sources */,
-				EB6E898020B2CAE000463196 /* CollectionViewController.swift in Sources */,
+				EBA2222B20D8B3D7005486E5 /* MainViewController.swift in Sources */,
+				EBA2223320D8D3DA005486E5 /* CustomNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
