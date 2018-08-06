@@ -10,6 +10,9 @@ import UIKit
 
 class CustomNavigationBar: UINavigationBar {
     
+
+   
+    /*
     //デフォルトよりどれだけ高くするか
     let addHeight:CGFloat = 40.0
     
@@ -62,5 +65,6 @@ class CustomNavigationBar: UINavigationBar {
             }
         }
     }
+     */
 
 }

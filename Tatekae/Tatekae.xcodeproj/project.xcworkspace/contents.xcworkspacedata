@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Tatekae.xcodeproj">
+      location = "group:Mas Pay.png">
+   </FileRef>
+   <FileRef
+      location = "group:Mas Pay@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:Mas Pay@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:Mal Pay.png">
+   </FileRef>
+   <FileRef
+      location = "group:Mal Pay@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:Mal Pay@3x.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

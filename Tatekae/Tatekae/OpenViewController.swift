@@ -10,6 +10,7 @@ import UIKit
 
 class OpenViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
+    let darkOrange = UIColor(red: 242/256, green: 188/256, blue: 9/256, alpha: 1.0)
     let ud = UserDefaults.standard
     var titleArray: [String] {
         get {
@@ -25,9 +26,21 @@ class OpenViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     @IBOutlet var tableView: UITableView!
+    
+    var lang: Int {
+        get {
+            return ud.integer(forKey: "langNum")
+        }
+        set {
+            ud.set(newValue, forKey: "langNum")
+            ud.synchronize()
+        }
+    }
+    let naviBarLB = ["Open File","ファイルを開く","打开文件","파일을 열기","Abrir archivo","Fichier ouvert"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = naviBarLB[lang]
         tableView.dataSource = self
         tableView.delegate = self
         loadTable()
@@ -52,6 +65,7 @@ class OpenViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         cell.textLabel?.text = ud.string(forKey: titleArray[indexPath.row]+"/sheetName")
+        cell.textLabel?.textColor = darkOrange
         return cell
     }
 
@@ -68,6 +82,7 @@ class OpenViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
+    // セルをスワイプで削除する
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             ud.removeObject(forKey: titleArray[indexPath.row] + "/sheetName")
@@ -76,15 +91,10 @@ class OpenViewController: UIViewController, UITableViewDelegate, UITableViewData
             ud.removeObject(forKey: titleArray[indexPath.row] + "/total")
             ud.removeObject(forKey: titleArray[indexPath.row] + "/result")
             ud.removeObject(forKey: titleArray[indexPath.row] + "/option")
+            ud.removeObject(forKey: titleArray[indexPath.row] + "/selectedOption")
             ud.synchronize()
             titleArray.remove(at: indexPath.row)
-            // delete below
-            print(titleArray)
             tableView.deleteRows(at: [indexPath], with: .fade)
-            for (key, value) in UserDefaults.standard.dictionaryRepresentation().sorted(by: { $0.0 < $1.0 }) {
-                print("- \(key) => \(value)")
-            }
-            // delete above
         }
     }
 
